@@ -1,12 +1,44 @@
-# tz_water_well_prediction
+# Tanzania Water Well Predction
 
+![image](69556245-women-carrying-water-from-the-well-to-their-village-in-tanzania.jpg)
 
-Predicting the status of water wells in tanzania
+#Objective
+The dataset consists of data on 59,400 water wells from Taarifa and the Tanzania Ministry of Water. The objective is to predict which pumps are function, which need repairs and which are non-functionak. The goal is to predict one of the three classes based on the variables about the kind of pump operating, when it was installed, how it is managed and where it is located. Some knowledge of waterpoints is needed to understand the features while some are geographical. 
 
-This repository is structured in 3 key parts. 
+Distribution of Target variable 
+![image](Screenshot_5.png)
+
+#Methodology
 
 1. EDA and Preliminary Data Cleaning - This is a quick process to identify issues with the data and developed a framework to address to maximize success of analysis and reflect on ways to structure business intelligence processes down the line. 
 
 2. Cleaning & Encoding - standardized process to make sure the same dataset is fed into different algorithims. Modular approaches to steps of cleaning make life simpler for data scientists and ensure a validity of results over multiple models. 
 
-3. Models and results - Xgboost performed the best with high results SMOTE reduced the accuracy so the 'vanilla' xgboost performed the best. 
+3. Models and results - Work on at least 3 different models and compare the results. 
+
+#Findings 
+
+Random Forest: 37% accuracy
+
+XGBoost: 74.47%. 
+Paramters:
+XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0,
+              learning_rate=0.1, max_delta_step=0, max_depth=3,
+              min_child_weight=1, missing=None, n_estimators=100, n_jobs=1,
+              nthread=None, objective='multi:softprob', random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+              silent=None, subsample=1, verbosity=1)
+
+
+
+#Business Applications 
+
+<b> Process Automation</b>
+1. Automatically notify installers of broken wells at regular intervals 
+2. Create a database of funders and their working wells to support fundraising process
+3. Created a preferred installer list based on who has the best track record of functioning wells. 
+
+
+<b> Data Science & Predictive Modelling </b>
+1. At 74% accuracy on unseen data, and the top models being around 80%, this model is ready for deployment. In conjunction with the process automation listed above, it could serve to speed up repairs and identify at risk wells in real time. 
