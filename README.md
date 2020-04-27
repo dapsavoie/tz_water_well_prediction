@@ -2,13 +2,14 @@
 
 ![image](69556245-women-carrying-water-from-the-well-to-their-village-in-tanzania.jpg)
 
-#Objective
+# Objective
 The dataset consists of data on 59,400 water wells from Taarifa and the Tanzania Ministry of Water. The objective is to predict which pumps are function, which need repairs and which are non-functionak. The goal is to predict one of the three classes based on the variables about the kind of pump operating, when it was installed, how it is managed and where it is located. Some knowledge of waterpoints is needed to understand the features while some are geographical. 
 
-Distribution of Target variable 
+<b> Distribution of Target variable </b>
+
 ![image](Screenshot_5.png)
 
-#Methodology
+# Methodology
 
 1. EDA and Preliminary Data Cleaning - This is a quick process to identify issues with the data and developed a framework to address to maximize success of analysis and reflect on ways to structure business intelligence processes down the line. 
 
@@ -16,7 +17,7 @@ Distribution of Target variable
 
 3. Models and results - Work on at least 3 different models and compare the results. 
 
-#Findings 
+# Findings 
 
 Random Forest: 37% accuracy
 
@@ -32,7 +33,7 @@ XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
 
 
 
-#Business Applications 
+# Business Applications 
 
 <b> Process Automation</b>
 1. Automatically notify installers of broken wells at regular intervals 
