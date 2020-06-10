@@ -3,7 +3,7 @@
 ![image](69556245-women-carrying-water-from-the-well-to-their-village-in-tanzania.jpg)
 
 # Objective
-The dataset consists of data on 59,400 water wells from Taarifa and the Tanzania Ministry of Water. The objective is to predict which pumps are function, which need repairs and which are non-functionak. The goal is to predict one of the three classes based on the variables about the kind of pump operating, when it was installed, how it is managed and where it is located. Some knowledge of waterpoints is needed to understand the features while some are geographical. 
+The dataset consists of data on 59,400 water wells from Taarifa and the Tanzania Ministry of Water. The objective is to predict which pumps are function, which need repairs and which are non-functional. The goal is to predict one of the three classes based on the variables about the kind of pump operating, when it was installed, how it is managed and where it is located. Some knowledge of waterpoints is needed to understand the features while some are geographical. 
 
 <b> Distribution of Target variable </b>
 
